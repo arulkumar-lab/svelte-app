@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "..\\..\\App.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\r\n    export let name;\r\n</script>\r\n\r\n<main>\r\n<h1>Hello {name}!</h1>\r\n    <p>Hello world page works!</p>\r\n</main>\r\n\r\n<style>\r\nmain {\r\ntext-align: center;\r\npadding: 1em;\r\nmax-width: 240px;\r\nmargin: 0 auto;\r\n}\r\n\r\nh1 {\r\ncolor: #ff3e00;\r\ntext-transform: uppercase;\r\nfont-size: 4em;\r\nfont-weight: 100;\r\n}\r\n\r\n@media (min-width: 640px) {\r\nmain {\r\nmax-width: none;\r\n}\r\n}\r\n</style>"
+  ],
+  "names": [],
+  "mappings": "AAUA,IAAI,cAAC,CAAC,AACN,UAAU,CAAE,MAAM,CAClB,OAAO,CAAE,GAAG,CACZ,SAAS,CAAE,KAAK,CAChB,MAAM,CAAE,CAAC,CAAC,IAAI,AACd,CAAC,AAED,EAAE,cAAC,CAAC,AACJ,KAAK,CAAE,OAAO,CACd,cAAc,CAAE,SAAS,CACzB,SAAS,CAAE,GAAG,CACd,WAAW,CAAE,GAAG,AAChB,CAAC,AAED,MAAM,AAAC,YAAY,KAAK,CAAC,AAAC,CAAC,AAC3B,IAAI,cAAC,CAAC,AACN,SAAS,CAAE,IAAI,AACf,CAAC,AACD,CAAC"
+}
