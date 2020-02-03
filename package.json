@@ -1,0 +1,38 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "description": "Svelte giapplication hello world",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.0",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "rollup": "^1.20.0",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^5.1.2",
+    "svelte": "^3.0.0"
+  },
+  "dependencies": {
+    "sirv-cli": "^0.4.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arulkumar-lab/svelte-app.git"
+  },
+  "keywords": [
+    "svelte",
+    "hello",
+    "world"
+  ],
+  "author": "Arul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arulkumar-lab/svelte-app/issues"
+  },
+  "homepage": "https://github.com/arulkumar-lab/svelte-app#readme"
+}
