@@ -16,4 +16,4 @@ npm run start --dev
 Browser: http://localhost:5000
 
 
-![svelte-app](https://user-images.githubusercontent.com/56085499/73649481-c8ac2980-4677-11ea-8901-71be95133dc0.PNG)
+![svelte-app](https://user-images.githubusercontent.com/56085499/74444605-06296780-4e6d-11ea-9f36-93b975388e97.PNG)
